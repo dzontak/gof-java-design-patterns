@@ -1,0 +1,40 @@
+Proxy
+
+Acts as an interface to something else.
+
+Concepts
+* Interface by wrapping
+* can add functionality
+* security, Simplicity, Remote call, Cost
+* Proxy is called to access the real object
+
+Example
+* java.lang.reflect.Proxy
+
+Design
+* Interface based
+* Interface and iplementation class
+* java.lang.reflect.InvocationHandler, java.lang.reflect.Proxy
+
+Client, interface InvocationHandler, Proxy and RealObject
+
+
+Pitfalls
+* Only one proxy
+* Another Abstraction
+* Similar to other patterns
+
+Contrast
+Proxy
+* can add functionality, but its not its main purpose
+* can only have one
+* compile time
+
+Decorator
+* Dynamically adds functionality
+* Chained pattern
+* decorator points to its own type
+* Runtime
+
+Summary
+

@@ -1,0 +1,41 @@
+Composite
+
+* Components represent part OR whole structure
+* Composite objects into tree structure
+* individual objects treated as a Composite
+* same operations applied on individual and Composites
+
+Examples
+* java.awt.Component
+* jsf widgets
+* Restful service GETS
+
+Design
+
+* Tree Structured
+* Component
+* Leaf or Composite, same operations
+* Composite knows about child objects
+* Component, Leaf, Composite
+
+Pitfalls
+* can overly simplify system
+* difficult to restrict
+* implementation can be costly
+
+Compare
+Composite
+* Tree structure
+* leaf and Composite have same interface
+* unity between objects
+
+Decorator
+* Contains other entity
+* modifies behaivor (adds)
+* Does change underlying objects
+
+Summary
+* Generalizes a hierarchical structure
+* can simplify things too much
+* Easier for the client
+* Composite != Composition
